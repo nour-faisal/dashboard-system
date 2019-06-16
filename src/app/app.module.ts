@@ -16,6 +16,7 @@ import { DashboardBodyComponent } from './dashboard-body/dashboard-body.componen
 // import { LockScreenComponent } from './lock-screen/lock-screen.component';
 // import { ChangePassComponent } from './change-pass/change-pass.component';
 import { ToggleButtonComponent } from './toggle-button';
+import { AddUerImageComponent } from './add-uer-image/add-uer-image.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ToggleButtonComponent } from './toggle-button';
     ChangePassComponent,
     DashboardBodyComponent,
     ToggleButtonComponent,
+    AddUerImageComponent,
     // LockScreenComponent,
     // ChangePassComponent
   ],
