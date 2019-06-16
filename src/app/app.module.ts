@@ -29,6 +29,7 @@ import { ToggleButtonComponent } from './toggle-button';
     ViewAllNotifComponent,
     ChangePassComponent,
     DashboardBodyComponent,
+    ToggleButtonComponent,
     // LockScreenComponent,
     // ChangePassComponent
   ],
