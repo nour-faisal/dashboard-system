@@ -5,9 +5,11 @@
     .toggle-privacy{
         display: flex;
         flex-direction: column;
-        // .toggle.Privacy{
+        .toggle-privacy label{
+                padding-left: 15px;
+                font-size: 20px;
             
-        // }
+        }
     
     }
 

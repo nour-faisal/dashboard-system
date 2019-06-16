@@ -25,7 +25,6 @@ import { Component, Output, EventEmitter} from '@angular/core';
       display: none;
     }
 
-    /* 토글 버튼 내부의 원. 감춘 체크박스와 연동한다. */
     .toggle-button-switch {
       position: absolute;
       top: 2px;
@@ -39,16 +38,14 @@ import { Component, Output, EventEmitter} from '@angular/core';
       transition: left 0.3s;
     }
 
-    /* 토글 버튼의 바탕 */
     .toggle-button-text {
       overflow: hidden;
-      background-color: #fc3164;
+      background-color: #6c6573;
       border-radius: 25px;
       box-shadow: 2px 2px 5px 0 rgba(50, 50, 50, 0.75);
       transition: background-color 0.3s;
     }
 
-    /* 토글 버튼의 텍스트 */
     .toggle-button-text-on,
     .toggle-button-text-off {
       float: left;
@@ -65,7 +62,7 @@ import { Component, Output, EventEmitter} from '@angular/core';
       left: 52px;
     }
     input[type="checkbox"]:checked ~ .toggle-button-text {
-      background-color: #3dbf87;
+      background-color: #51445f;
     }
   `]
 })
