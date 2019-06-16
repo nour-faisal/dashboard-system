@@ -5,9 +5,12 @@
     .toggle-privacy{
         display: flex;
         flex-direction: column;
-        .toggle-privacy label{
+        .toggle-privacy{
+            .form-check-label{
                 padding-left: 15px;
                 font-size: 20px;
+            }
+            
             
         }
     
