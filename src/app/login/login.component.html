@@ -24,20 +24,18 @@
           <h2>Login</h2>
           <form role="form">
                   <div class="form-content">
-                      <div class="form-group">
-                          <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" autofocus>
-                          <span class="highlight"></span>
-                          <span class="bar"></span>
-                          <label for="exampleInputEmail1">User Email</label>
-
-                        </div>
-                        <div class="form-group">
+                    <div class="group">      
+                        <input type="text" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Name</label>
+                      </div>
+                        <div class="group">
+                            <input type="password" ngModel passwordToggle required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Password</label>
                           
-                          <!-- <show-hide-password  size="lg" btnStyle="secondary" [btnOutline]="true"> -->
-                            
-                            <input type="password" class="form-control" ngModel passwordToggle>                 
-                            <label >Password</label>
-                            <!-- </show-hide-password> -->
                         </div>
                         
                         
@@ -47,7 +45,7 @@
                               <span class="checkmark"></span>
                             </label>
                           </div>
-                          <a  class="btn btn-login"  [routerLink]="[ '/home']" >login</a>
+                          <!-- <a  class="btn btn-login"  [routerLink]="[ '/home']" >login</a> -->
                           <a [routerLink]="[ '/edit-license']" class="btn-license">License Agreement</a>
                   </div>
               </form>
