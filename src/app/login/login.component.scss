@@ -78,14 +78,14 @@ $font: 'Lato';
 
     .group 			  { 
         position:relative; 
-        margin-bottom:45px; 
+        margin-bottom:25px; 
       }
       input	{
         background-color: rgba(0,0,0,0);
         font-size:18px;
         padding:10px 10px 10px 5px;
         display:block;
-        width:300px;
+        width:370px;
         border:none;
         border-bottom:1px solid #757575;
       }
@@ -94,7 +94,7 @@ $font: 'Lato';
       /* LABEL ======================================= */
       label 				 {
         color:#999; 
-        font-size:18px;
+        font-size:16px;
         font-weight:normal;
         position:absolute;
         pointer-events:none;
@@ -103,17 +103,18 @@ $font: 'Lato';
         transition:0.2s ease all; 
         -moz-transition:0.2s ease all; 
         -webkit-transition:0.2s ease all;
+        font-family: $font;
       }
       
       /* active state */
       input:focus ~ label, input:valid ~ label 		{
         top:-20px;
-        font-size:14px;
+        font-size:13px;
         color:#5264AE;
       }
       
       /* BOTTOM BARS ================================= */
-      .bar 	{ position:relative; display:block; width:300px; }
+      .bar 	{ position:relative; display:block; width:370px; }
       .bar:before, .bar:after 	{
         content:'';
         height:2px; 
@@ -215,9 +216,9 @@ $font: 'Lato';
         
     }
     .form-content {
-        padding: 40px 0;
+        // padding: 40px 0;
         // padding-bottom: 20px;
-        padding-top: 5px;
+        padding-top: 20px;
         .form-group{
            
             label{
@@ -230,6 +231,9 @@ $font: 'Lato';
 
 
         }
+    }
+    .form-check{
+        padding-left: 0;
     }
 
     .check {
@@ -311,11 +315,12 @@ $font: 'Lato';
     .btn-login{
         margin: auto;
         background-color: #320032;
-        width: 70%;
+        width: 100px;
+        float: left;
         display: flex;
         flex-direction: row;
         color: #fff !important;
-        padding-left: 148px;
+        padding-left: 30px;
         
 
     }
