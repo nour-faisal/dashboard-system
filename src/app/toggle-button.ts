@@ -18,7 +18,7 @@ import { Component, Output, EventEmitter} from '@angular/core';
     :host {
       display: block;
       position: relative;
-      width: 100px;
+      width: 95px;
       height: 50px;
     }
     input[type="checkbox"] {
@@ -29,8 +29,8 @@ import { Component, Output, EventEmitter} from '@angular/core';
       position: absolute;
       top: 2px;
       left: 2px;
-      width: 46px;
-      height: 46px;
+      width: 35px;
+      height: 35px;
       background-color: #fff;
       border-radius: 100%;
       cursor: pointer;
@@ -49,9 +49,9 @@ import { Component, Output, EventEmitter} from '@angular/core';
     .toggle-button-text-on,
     .toggle-button-text-off {
       float: left;
-      width: 50%;
+      width: 47%;
       height: 100%;
-      line-height: 50px;
+      line-height: 40px;
       font-family: Lato, sans-serif;
       font-weight: bold;
       color: #fff;

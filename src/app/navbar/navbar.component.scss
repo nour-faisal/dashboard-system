@@ -20,31 +20,49 @@ li:nth-child(4) a{
 }
 .navbar{
     padding: 0 1em;
+    height: 50px;
 }
 .flag-icon{
     height: 30px;
     width: 30px;
-    margin-left: 5px;
+    margin-left: 6px;
+}
+
+.nav-link:nth-child(3){
+    span{
+        font-size: 12px;
+    }
 }
 
 .lock{
     padding-left: 28px;
     font-weight: bold;
-    font-size: 20px;
-    margin-top: 7px;
+    font-size: 15px;
+    margin-top: 10px;
     cursor: pointer;
 }
-.btn-lock:active,.btn-lock:focus,.btn-lock:hover{
-    color: #fff;
+.btn-lock{
+    span{
+        font-size: 14px;
+    }
 }
+
 .user-icon{
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 13px;
     margin-right: -5px;
 }
-.full-icon{
-    margin-top: 10px;
+.dropdown-user{
+    margin-top: 5px;
+    a{
+        font-size: 14px
+    }
 }
+.full-icon{
+    margin-top: 15px;
+    width: 25px;
+}
+
 .btn-secondary{
     background-color: rgba(0,0,0,0);
     border: 0;
@@ -54,6 +72,15 @@ li:nth-child(4) a{
     position: absolute;
     top: 15px;
     margin-left: -8px;
+    padding-right: .3em; 
+    padding-left: .3em; 
+    border-radius: .2rem; 
+}
+.nav-item:last-child{
+    span{
+        margin-top: -10px;
+    }
+    
 }
 .dropdown-menu-notif{
     .notif-header{
@@ -136,7 +163,7 @@ li:nth-child(4) a{
 .notif
 {
     color: #ccc;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 15px;
 
 }
@@ -152,9 +179,11 @@ li:nth-child(4) a{
     border-top-left-radius: .25rem !important;
     border-bottom-left-radius: .25rem !important;
     margin-top: 7px;
-    margin-left: 305px;
     width: 320px;
     background-color: rgba(0,0,0,0);
+}
+.fixed-top{
+    left:260px;
 }
 .modal-content{
     margin: 0 auto;
@@ -248,4 +277,10 @@ li:nth-child(4) a{
           }
 
     }
+
+    
+}
+
+.btn-lock:active,.btn-lock:focus,.btn-lock:hover{
+    color: #fff !important;
 }
