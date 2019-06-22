@@ -97,7 +97,12 @@ $font: 'Lato';
         // border-bottom:1px solid #757575;
       }
       input:focus 		{ border: 1px solid #1a73e8; }
-      
+      .field-icon{
+        position: absolute;
+        top: 12px;
+        right: 19px;
+        font-size: 25px;
+      }
       /* LABEL ======================================= */
       label 				 {
         color:#999; 
