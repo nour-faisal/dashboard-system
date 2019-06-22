@@ -64,7 +64,7 @@ $font: 'Lato';
         background-color: #fafafa;
         // margin: 1em 0;
         padding: 1em;
-        height: 290px;
+        height:325px;
         color: $primary-color;
         padding-top: 0;
         padding-bottom: 4em;
@@ -87,15 +87,16 @@ $font: 'Lato';
         margin-bottom:25px; 
       }
       input	{
-        background-color: rgba(0,0,0,0);
+        background-color:#fff;
         font-size:18px;
         padding:10px 10px 10px 5px;
         display:block;
         width:370px;
-        border:none;
-        border-bottom:1px solid #757575;
+        border:1px solid #ccc;
+        border-radius: 5px;
+        // border-bottom:1px solid #757575;
       }
-      input:focus 		{ outline:none; }
+      input:focus 		{ border: 1px solid #1a73e8; }
       
       /* LABEL ======================================= */
       label 				 {
@@ -114,9 +115,11 @@ $font: 'Lato';
       
       /* active state */
       input:focus ~ label, input:valid ~ label 		{
-        top:-20px;
+        top:-13px;
         font-size:13px;
-        color:#5264AE;
+        color:#1a73e8;
+        padding-left: 5px;
+        background-color: #fafafa;
       }
       
       /* BOTTOM BARS ================================= */
@@ -240,6 +243,8 @@ $font: 'Lato';
     }
     .form-check{
         padding-left: 0;
+        display: flex;
+        flex-direction: column;
     }
 
     .check {
@@ -247,7 +252,7 @@ $font: 'Lato';
         position: relative;
         padding-left: 25px;
         margin-bottom: 12px;
-        padding-right: 15px;
+        padding-right: 217px;
         cursor: pointer;
         font-size: 14px;
         float: right !important;
@@ -342,7 +347,7 @@ $font: 'Lato';
     .license-group{
         display: flex;
         flex-direction: column;
-        margin-top: 85px;
+        // margin-top: 85px;
         margin-right: 120px;
 
         span{

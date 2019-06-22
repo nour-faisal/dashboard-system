@@ -11,24 +11,25 @@
                     <div class="group">      
                         <input type="text" required>
                         <span class="highlight"></span>
-                        <span class="bar"></span>
+                        <!-- <span class="bar"></span> -->
                         <label>User Name</label>
                       </div>
                         <div class="group">
                             <input type="password" ngModel passwordToggle required>
                             <span class="highlight"></span>
-                            <span class="bar"></span>
+                            <!-- <span class="bar"></span> -->
                             <label>Password</label>
                           
                         </div>
                         
                         
                         <div class="form-group form-check">
-                            <a [routerLink]="[ '/home']" class="btn btn-login">login</a>
+                            
                             <label class="check ">Remember my user ID
                                 <input type="checkbox" checked="checked" name="is_name">
                               <span class="checkmark"></span>
                             </label>
+                            <a [routerLink]="[ '/home']" class="btn btn-login">login</a>
                           </div>
 
                           <div class="group license-group">
