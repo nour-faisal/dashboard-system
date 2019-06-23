@@ -20,12 +20,13 @@ li:nth-child(4) a{
 }
 .navbar{
     padding: 0 1em;
-    height: 50px;
+    height: 45px;
 }
 .flag-icon{
     height: 30px;
     width: 30px;
-    margin-left: 6px;
+    // margin-left: 6px;
+    margin-top: 6px;
 }
 
 .nav-link:nth-child(3){
@@ -35,10 +36,10 @@ li:nth-child(4) a{
 }
 
 .lock{
-    padding-left: 28px;
+    // padding-left: 28px;
     font-weight: bold;
-    font-size: 15px;
-    margin-top: 10px;
+    font-size: 20px;
+    margin-top: 13px;
     cursor: pointer;
 }
 .btn-lock{
@@ -48,18 +49,19 @@ li:nth-child(4) a{
 }
 
 .user-icon{
-    font-size: 25px;
-    margin-top: 13px;
-    margin-right: -5px;
+    font-size: 30px;
+    /* margin-top: 7px; */
+    margin: 7px 0;
+    margin-right: -4px;
 }
 .dropdown-user{
     margin-top: 5px;
     a{
-        font-size: 14px
+        font-size: 13px
     }
 }
 .full-icon{
-    margin-top: 15px;
+    margin-top: 10px;
     width: 25px;
 }
 
@@ -70,11 +72,12 @@ li:nth-child(4) a{
 }
 .notification{
     position: absolute;
-    top: 15px;
-    margin-left: -8px;
-    padding-right: .3em; 
-    padding-left: .3em; 
-    border-radius: .2rem; 
+    top: 16px;
+    margin-left: -7px;
+    /* padding-right: .3em; */
+    /* padding-left: .3em; */
+    border-radius: .7em;
+    font-size: 10px; 
 }
 .nav-item:last-child{
     span{
@@ -164,8 +167,34 @@ li:nth-child(4) a{
 {
     color: #ccc;
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 10px;
 
+}
+.search{
+    input{
+        background-color: rgba(0,0,0,0);
+        color:#7c7387;
+        outline: none;
+        border: 0;
+        border-radius: 0;
+        border-bottom: 1px solid #7c7387;
+        /* padding: 5px; */
+        margin-bottom: 10px;
+
+    }
+    input:focus{
+        outline: none;
+        box-shadow: 0 0 0 0.2rem rgba(0,0,0,0);
+    }
+    ::-ms-input-placeholder{
+        color: #7c7387;
+    }
+    ::-webkit-input-placeholder{
+        color: #7c7387;
+    }
+}
+.input-group{
+    margin-left: 40px;
 }
 .search-icon{
     height: 30px;
@@ -174,6 +203,7 @@ li:nth-child(4) a{
     width: 30px;
     top: .8em;
     right: .1em;
+    color: #7c7387;
 }
 .btn-search{
     border-top-left-radius: .25rem !important;

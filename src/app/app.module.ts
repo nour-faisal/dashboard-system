@@ -17,6 +17,7 @@ import { DashboardBodyComponent } from './dashboard-body/dashboard-body.componen
 // import { ChangePassComponent } from './change-pass/change-pass.component';
 import { ToggleButtonComponent } from './toggle-button';
 import { AddUerImageComponent } from './add-uer-image/add-uer-image.component';
+import { SidbarHvComponent } from './sidbar-hv/sidbar-hv.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { AddUerImageComponent } from './add-uer-image/add-uer-image.component';
     DashboardBodyComponent,
     ToggleButtonComponent,
     AddUerImageComponent,
+    SidbarHvComponent,
     // LockScreenComponent,
     // ChangePassComponent
   ],
